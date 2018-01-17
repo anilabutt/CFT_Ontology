@@ -22,15 +22,191 @@
     
 
 
-    <!-- http://csiro.digiscape.au/cft#hasInput -->
+    <!-- http://csiro.digiscape.au/cft#NCycleParameters -->
 
-    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#hasInput"/>
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#NCycleParameters">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
     
 
 
-    <!-- http://csiro.digiscape.au/cft#hasOutput -->
+    <!-- http://csiro.digiscape.au/cft#PerennialPlantParamters -->
 
-    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#hasOutput"/>
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#PerennialPlantParamters">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#animalClassesParameter -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#animalClassesParameter">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#animalParameter -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#animalParameter">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#annualPlantParameters -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#annualPlantParameters">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#autoIrrTable -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#autoIrrTable">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterPatermeter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#bareSoilEvaporation -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#bareSoilEvaporation">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterPatermeter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#globalParameters -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#globalParameters">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#inputVariables -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#inputVariables">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#k_1 -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#k_1">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#globalParameters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#k_2 -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#k_2">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#globalParameters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#kmax -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#kmax">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#globalParameters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#organicMatterPatameters -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#organicMatterPatameters">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#outputVariables -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#outputVariables"/>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#pH -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#pH">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#globalParameters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#parameter -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#parameter"/>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#soilWaterParameter -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#soilWaterParameter">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#soilWaterPatermeter -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#soilWaterPatermeter">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#0 -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#0">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#1 -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#1">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#2 -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#2">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#3 -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#3">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#4 -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#4">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#5 -->
+
+    <owl:ObjectProperty rdf:about="http://csiro.digiscape.au/cft#5">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    </owl:ObjectProperty>
     
 
 
@@ -553,6 +729,14 @@
     
 
 
+    <!-- http://csiro.digiscape.au/cft#Bulk_Density -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#Bulk_Density">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://csiro.digiscape.au/cft#Clay -->
 
     <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#Clay">
@@ -577,10 +761,26 @@
     
 
 
+    <!-- http://csiro.digiscape.au/cft#Depth -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#Depth">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://csiro.digiscape.au/cft#Destock_pstrDM -->
 
     <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#Destock_pstrDM">
         <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#globalParameters"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#EoFrac -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#EoFrac">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
     </owl:DatatypeProperty>
     
 
@@ -641,11 +841,35 @@
     
 
 
+    <!-- http://csiro.digiscape.au/cft#Harvest -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#Harvest">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://csiro.digiscape.au/cft#HeadPerHa -->
 
     <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#HeadPerHa">
         <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#animalClassesParameter"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#IR_maxPAWCfrac -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#IR_maxPAWCfrac">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#IR_minPAWCfrac -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#IR_minPAWCfrac">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
     </owl:DatatypeProperty>
     
 
@@ -924,9 +1148,7 @@
 
     <!-- http://csiro.digiscape.au/cft#NCycleParameters -->
 
-    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#NCycleParameters">
-        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#NCycleParameters"/>
     
 
 
@@ -1190,6 +1412,14 @@
 
     <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#OMgen_healthyCN">
         <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#organicMatterPatameters"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#PAWC -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#PAWC">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
     </owl:DatatypeProperty>
     
 
@@ -1540,9 +1770,7 @@
 
     <!-- http://csiro.digiscape.au/cft#PerennialPlantParamters -->
 
-    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#PerennialPlantParamters">
-        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#PerennialPlantParamters"/>
     
 
 
@@ -1550,6 +1778,14 @@
 
     <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#PropBosTaurus">
         <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#animalClassesParameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#SWC_ini -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#SWC_ini">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
     </owl:DatatypeProperty>
     
 
@@ -1562,10 +1798,34 @@
     
 
 
+    <!-- http://csiro.digiscape.au/cft#Sow_PAWCfrac -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#Sow_PAWCfrac">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#Sow_start -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#Sow_start">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://csiro.digiscape.au/cft#Species -->
 
     <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#Species">
         <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#animalClassesParameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#TSDM_ini -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#TSDM_ini">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
     </owl:DatatypeProperty>
     
 
@@ -1596,33 +1856,47 @@
 
     <!-- http://csiro.digiscape.au/cft#animalClassesParameter -->
 
-    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#animalClassesParameter">
-        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#animalClassesParameter"/>
     
 
 
     <!-- http://csiro.digiscape.au/cft#animalParameter -->
 
-    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#animalParameter">
-        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#animalParameter"/>
     
 
 
     <!-- http://csiro.digiscape.au/cft#annualPlantParameters -->
 
-    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#annualPlantParameters">
-        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#annualPlantParameters"/>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#coarse_infil_max -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#coarse_infil_max">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#date -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#date"/>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#fine_infil_max -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#fine_infil_max">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
     </owl:DatatypeProperty>
     
 
 
     <!-- http://csiro.digiscape.au/cft#globalParameters -->
 
-    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#globalParameters">
-        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#globalParameters"/>
     
 
 
@@ -1637,41 +1911,39 @@
 
     <!-- http://csiro.digiscape.au/cft#k_1 -->
 
-    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#k_1">
-        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#globalParameters"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#k_1"/>
     
 
 
     <!-- http://csiro.digiscape.au/cft#k_2 -->
 
-    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#k_2">
-        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#globalParameters"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#k_2"/>
     
 
 
     <!-- http://csiro.digiscape.au/cft#kmax -->
 
-    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#kmax">
-        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#globalParameters"/>
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#kmax"/>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#medium_infil_max -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#medium_infil_max">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#soilWaterParameter"/>
     </owl:DatatypeProperty>
     
 
 
     <!-- http://csiro.digiscape.au/cft#organicMatterPatameters -->
 
-    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#organicMatterPatameters">
-        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#organicMatterPatameters"/>
     
 
 
     <!-- http://csiro.digiscape.au/cft#pH -->
 
-    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#pH">
-        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#globalParameters"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#pH"/>
     
 
 
@@ -1680,6 +1952,64 @@
     <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#parameter">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#simulationEndDate -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#simulationEndDate">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#simulationStartDate -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#simulationStartDate">
+        <rdfs:subPropertyOf rdf:resource="http://csiro.digiscape.au/cft#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#soilWaterParameter -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#soilWaterParameter"/>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#0 -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#0"/>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#1 -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#1"/>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#2 -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#2"/>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#3 -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#3"/>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#4 -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#4"/>
+    
+
+
+    <!-- http://csiro.digiscape.au/cft#5 -->
+
+    <owl:DatatypeProperty rdf:about="http://csiro.digiscape.au/cft#5"/>
     
 
 
@@ -1700,26 +2030,68 @@
         <rdfs:subClassOf rdf:resource="http://csiro.digiscape.au/cft#Process"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#hasInput"/>
-                <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#Configuration"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#hasInput"/>
-                <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#Date"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#hasInput"/>
+                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#inputVariables"/>
                 <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#Timeseries"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#hasOutput"/>
+                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#outputVariables"/>
                 <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#Variable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+                <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#AnimalParameters"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+                <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#AnnualPlantParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+                <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#GlobalParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+                <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#NCycleParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+                <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#OrganicMatterParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+                <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#PerennialParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#parameter"/>
+                <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#SoilWaterParameter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#simulationEndDate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#simulationStartDate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1737,7 +2109,7 @@
     <!-- http://csiro.digiscape.au/cft#AnimalClassesParameter -->
 
     <owl:Class rdf:about="http://csiro.digiscape.au/cft#AnimalClassesParameter">
-        <rdfs:subClassOf rdf:resource="http://csiro.digiscape.au/cft#AnimalParameters"/>
+        <rdfs:subClassOf rdf:resource="http://csiro.digiscape.au/cft#Configuration"/>
     </owl:Class>
     
 
@@ -1748,6 +2120,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#animalClassesParameter"/>
+                        <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#AnimalClassesParameter"/>
+                    </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#AM_CH4DMI"/>
                         <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.7</owl:hasValue>
@@ -2009,7 +2385,37 @@
     <!-- http://csiro.digiscape.au/cft#AutoIrrTable -->
 
     <owl:Class rdf:about="http://csiro.digiscape.au/cft#AutoIrrTable">
-        <rdfs:subClassOf rdf:resource="http://csiro.digiscape.au/cft#OrganicMatterParameter"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#0"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#1"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#2"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#3"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#4"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#5"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://csiro.digiscape.au/cft#Configuration"/>
     </owl:Class>
     
 
@@ -2017,7 +2423,29 @@
     <!-- http://csiro.digiscape.au/cft#BareSoilEvaporation -->
 
     <owl:Class rdf:about="http://csiro.digiscape.au/cft#BareSoilEvaporation">
-        <rdfs:subClassOf rdf:resource="http://csiro.digiscape.au/cft#OrganicMatterParameter"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#1"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#2"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#3"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#4"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://csiro.digiscape.au/cft#Configuration"/>
     </owl:Class>
     
 
@@ -2033,12 +2461,6 @@
     <owl:Class rdf:about="http://csiro.digiscape.au/cft#CoreAnimalVariable">
         <rdfs:subClassOf rdf:resource="http://csiro.digiscape.au/cft#AnimalVariable"/>
     </owl:Class>
-    
-
-
-    <!-- http://csiro.digiscape.au/cft#Date -->
-
-    <owl:Class rdf:about="http://csiro.digiscape.au/cft#Date"/>
     
 
 
@@ -3645,6 +4067,140 @@
     <!-- http://csiro.digiscape.au/cft#OrganicMatterParameter -->
 
     <owl:Class rdf:about="http://csiro.digiscape.au/cft#OrganicMatterParameter">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOFCNmax"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOFCNmin"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.25</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOF_CNini"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOSCNmax"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOSCNmin"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.25</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOS_CNini"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DPM_CNini"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DcmpRateBIOF"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.66</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DcmpRateBIOS"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.66</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DcmpRateDPM"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DcmpRateHUM"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.02</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DcmpRateRPM"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracHUMToBIOF"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.00</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracHUMToBIOS"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.46</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracHUMToHUM"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.54</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracManureBIOF"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.00</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracManureBIOS"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.00</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracManureDPM"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.49</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracManureRPM"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.49</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracXXXToBIOF"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.46</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracXXXToBIOS"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.00</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracXXXToHUM"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.54</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_HUMCNmax"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.5</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_HUMCNmin"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.3</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_HUM_CNini"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_HUMadsMult"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_RPM_CNini"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_RPMaggMult"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_RatioDPMToRPM"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.44</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_SalinityMult"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_depletedCN"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_healthyCN"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://csiro.digiscape.au/cft#Configuration"/>
     </owl:Class>
     
@@ -3876,17 +4432,13 @@
 
     <!-- http://csiro.digiscape.au/cft#SimulationEndDate -->
 
-    <owl:Class rdf:about="http://csiro.digiscape.au/cft#SimulationEndDate">
-        <rdfs:subClassOf rdf:resource="http://csiro.digiscape.au/cft#Date"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://csiro.digiscape.au/cft#SimulationEndDate"/>
     
 
 
     <!-- http://csiro.digiscape.au/cft#SimulationStartDate -->
 
-    <owl:Class rdf:about="http://csiro.digiscape.au/cft#SimulationStartDate">
-        <rdfs:subClassOf rdf:resource="http://csiro.digiscape.au/cft#Date"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://csiro.digiscape.au/cft#SimulationStartDate"/>
     
 
 
@@ -3897,132 +4449,68 @@
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOFCNmax"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#autoIrrTable"/>
+                        <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#AutoIrrTable"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOFCNmin"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.25</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#bareSoilEvaporation"/>
+                        <owl:someValuesFrom rdf:resource="http://csiro.digiscape.au/cft#BareSoilEvaporation"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOF_CNini"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#Bulk_Density"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOSCNmax"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#Depth"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOSCNmin"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.25</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#EoFrac"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.75</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_BIOS_CNini"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#Harvest"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">328</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DPM_CNini"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60.0</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#IR_maxPAWCfrac"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DcmpRateBIOF"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.66</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#IR_minPAWCfrac"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DcmpRateBIOS"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.66</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#PAWC"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">150.0</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DcmpRateDPM"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#SWC_ini"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.0</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DcmpRateHUM"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.02</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#Sow_PAWCfrac"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_DcmpRateRPM"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#Sow_start"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracHUMToBIOF"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.00</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#TSDM_ini"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.0</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracHUMToBIOS"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.46</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#coarse_infil_max"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200.0</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracHUMToHUM"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.54</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#fine_infil_max"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.0</owl:hasValue>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracManureBIOF"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.00</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracManureBIOS"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.00</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracManureDPM"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.49</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracManureRPM"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.49</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracXXXToBIOF"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.46</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracXXXToBIOS"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.00</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_FracXXXToHUM"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.54</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_HUMCNmax"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.5</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_HUMCNmin"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.3</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_HUM_CNini"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_HUMadsMult"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_RPM_CNini"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80.0</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_RPMaggMult"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_RatioDPMToRPM"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.44</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_SalinityMult"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_depletedCN"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#OMgen_healthyCN"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</owl:hasValue>
+                        <owl:onProperty rdf:resource="http://csiro.digiscape.au/cft#medium_infil_max"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120.0</owl:hasValue>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
